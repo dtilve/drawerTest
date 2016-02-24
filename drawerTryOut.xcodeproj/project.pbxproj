@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375DCEEB1C7D32A600515076 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DCEE81C7D32A600515076 /* KYDrawerController.swift */; settings = {ASSET_TAGS = (); }; };
+		375DCEEC1C7D32A600515076 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DCEE91C7D32A600515076 /* KYEmbedDrawerControllerSegue.swift */; settings = {ASSET_TAGS = (); }; };
+		375DCEED1C7D32A600515076 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DCEEA1C7D32A600515076 /* KYEmbedMainControllerSegue.swift */; settings = {ASSET_TAGS = (); }; };
 		379031C51C7D20A700C4243B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379031C41C7D20A700C4243B /* AppDelegate.swift */; };
 		379031C71C7D20A700C4243B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379031C61C7D20A700C4243B /* ViewController.swift */; };
 		379031CA1C7D20A700C4243B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379031C81C7D20A700C4243B /* Main.storyboard */; };
 		379031CC1C7D20A700C4243B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379031CB1C7D20A700C4243B /* Assets.xcassets */; };
 		379031CF1C7D20A700C4243B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379031CD1C7D20A700C4243B /* LaunchScreen.storyboard */; };
+		379031D91C7D27E200C4243B /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379031D81C7D27E200C4243B /* DrawerMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		379031DE1C7D2C4400C4243B /* GCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379031DA1C7D282900C4243B /* GCMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375DCEE81C7D32A600515076 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = ../../KYDrawerController/KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		375DCEE91C7D32A600515076 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = ../../KYDrawerController/KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		375DCEEA1C7D32A600515076 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = ../../KYDrawerController/KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
 		379031C11C7D20A700C4243B /* drawerTryOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawerTryOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379031C41C7D20A700C4243B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		379031C61C7D20A700C4243B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		379031CB1C7D20A700C4243B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379031CE1C7D20A700C4243B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379031D01C7D20A700C4243B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379031D81C7D27E200C4243B /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		379031DA1C7D282900C4243B /* GCMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 		379031C31C7D20A700C4243B /* drawerTryOut */ = {
 			isa = PBXGroup;
 			children = (
+				375DCEE81C7D32A600515076 /* KYDrawerController.swift */,
+				375DCEE91C7D32A600515076 /* KYEmbedDrawerControllerSegue.swift */,
+				375DCEEA1C7D32A600515076 /* KYEmbedMainControllerSegue.swift */,
 				379031C41C7D20A700C4243B /* AppDelegate.swift */,
+				379031DA1C7D282900C4243B /* GCMainViewController.swift */,
+				379031D81C7D27E200C4243B /* DrawerMenuViewController.swift */,
 				379031C61C7D20A700C4243B /* ViewController.swift */,
 				379031C81C7D20A700C4243B /* Main.storyboard */,
 				379031CB1C7D20A700C4243B /* Assets.xcassets */,
@@ -134,8 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375DCEEC1C7D32A600515076 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				375DCEED1C7D32A600515076 /* KYEmbedMainControllerSegue.swift in Sources */,
 				379031C71C7D20A700C4243B /* ViewController.swift in Sources */,
 				379031C51C7D20A700C4243B /* AppDelegate.swift in Sources */,
+				379031D91C7D27E200C4243B /* DrawerMenuViewController.swift in Sources */,
+				379031DE1C7D2C4400C4243B /* GCMainViewController.swift in Sources */,
+				375DCEEB1C7D32A600515076 /* KYDrawerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +303,7 @@
 				379031D51C7D20A700C4243B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
